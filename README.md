@@ -124,4 +124,6 @@ data和reply可以通过write和read写入/读取传送的值。
 > * 设private IBinder mBinder时候居然漏了IBinder的首字母I，然后还设置成功了。结果下面onServiceConnected函数倒是一堆报错。找了好久才发现这个bug……
 
 
+PS：源码已完整上传，你需要先把mp3文件放在你手机SD卡根目录下的data文件夹里，使得该文件的路径为：/data/K.Will_Melt.mp3
+
 2017/11/22
